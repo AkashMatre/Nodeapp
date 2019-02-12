@@ -1,0 +1,15 @@
+1. Create a usermodel collection which will store userid and password.
+	- Create api which should be able to create user.
+	- But to create user headers must pass administrator credential.
+	- provide access to rest api for products base on login that is received from headers.
+     Every rest api should valid first.
+	-Create usermodel.js which will contain logic for user registration.
+	-Create all js which will contain api logic for products.
+	-webserver will use this module to completeapp. if login user is invalidate them generate error msg as plz registere with url of user registration.
+PATH:- Nodeapp/expressdemo/webdevserv.js
+
+
+2. Modify express rest api for adding search functionality with multiple parameter like
+	-search by product Name , category , Manufacturer with all condition.
+  
+  PATH:- Nodeapp/expressapp/webappserv.js
